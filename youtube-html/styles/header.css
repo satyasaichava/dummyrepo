@@ -1,0 +1,72 @@
+.header{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+.left-section{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu-container{
+    display: inline-flex;
+    margin-right: 5px;
+}
+
+.hamburger-menu{
+    height: 30px;
+    cursor: pointer;
+}
+
+.youtube-logo-container{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.youtube-logo{
+    height: 20px;
+    cursor: pointer;
+}
+.middle-section{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+.bar-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border: 1px solid grey;
+    background-color: #d3d3d3;
+    border-radius: 30px;
+}
+
+.bar{
+    border: 0px;
+    border-radius: 30px;
+    height: 30px;
+    width: 90%;
+}
+
+.search{
+   
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.right-section{
+    margin-left: 50px;
+    width: 250px;
+    background-color: turquoise;
+}
+

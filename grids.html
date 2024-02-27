@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+    <style>
+        .video-grid{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .video-1{
+           
+        }
+        .video-2{
+
+        }
+        .video-3{
+
+        }
+        .video-thumbnail{
+            width: 500px;
+            height: 300px;
+            object-fit: cover;
+            object-position: middle;
+        }
+        .description-container{
+            margin: 5px;
+            display: grid;
+            grid-template-columns: 100px 1fr;
+        }
+        .description{
+            margin: 10px;
+        }
+        .channel-picture{
+            width: 100px;
+            border-radius: 50px;
+        }
+        .title{
+            margin: 0px;
+            font-size: 35px;
+        }
+        .author{
+            margin:0px;
+            font-size: 20px;
+            color: darkgray;
+        }
+        .stats{
+            margin:0px;
+            font-size: 20px;
+            color: darkgray;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="video-grid">
+        <div class="video-1">
+            <div class="image-container">
+                <img src="images/puppy.jpg" alt="video-thumbnail" class="video-thumbnail">
+            </div>
+            <div class="description-container">
+                <div class="profile-photo-container">
+                    <img src="images/puppy.jpg" alt="channel-picture" class="channel-picture">
+                </div>
+                <div class="description">
+                    <div class="video-title"><p class="title">How to be cute and smart</p></div>
+                    <div class="video-author"><p class="author">Puppy King</p></div>
+                    <div class="video-stats"><p class="stats">22.2 Views || 2 days ago</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="video-2">
+            <div class="image-container">
+                <img src="images/puppy.jpg" alt="video-thumbnail" class="video-thumbnail">
+            </div>
+            <div class="description-container">
+                <div class="profile-photo-container">
+                    <img src="images/puppy.jpg" alt="channel-picture" class="channel-picture">
+                </div>
+                <div class="description">
+                    <div class="video-title"><p class="title">How to be cute and smart</p></div>
+                    <div class="video-author"><p class="author">Puppy King</p></div>
+                    <div class="video-stats"><p class="stats">22.2 Views || 2 days ago</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="video-3">
+            <div class="image-container">
+                <img src="images/puppy.jpg" alt="video-thumbnail" class="video-thumbnail">
+            </div>
+            <div class="description-container">
+                <div class="profile-photo-container">
+                    <img src="images/puppy.jpg" alt="channel-picture" class="channel-picture">
+                </div>
+                <div class="description">
+                    <div class="video-title"><p class="title">How to be cute and smart</p></div>
+                    <div class="video-author"><p class="author">Puppy King</p></div>
+                    <div class="video-stats"><p class="stats">22.2 Views || 2 days ago</p></div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

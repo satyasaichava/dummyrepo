@@ -1,0 +1,60 @@
+.header-text{
+            
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    width: 300px;
+    margin: 0px 0px 0px 0px;
+}
+.views-section{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    color: grey;
+    margin: 10px 0px 0px 0px;
+}
+.text-description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    font-weight: lighter;
+    color: grey;
+    width: 300px;
+    margin: 10px 0px 0px 0px;
+}
+.bottom-line{
+    width: 300px;
+    padding: 5px;
+    background-color: rgba(216, 24, 10, 0.952);
+}
+.shop-link:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+.course-heading{
+    font-weight: bold;
+    font-family: Verdana;
+    margin: 0px;
+}
+.course-subheading{
+    font-family: Verdana;
+    color: grey;
+    margin: 0px;
+    font-size: small;
+}
+.course-description{
+    font-family: Verdana;
+    font-size: small;
+    margin: 5px 0px 5px;
+    width: 300px;
+}
+.course-button{
+    font-family: Verdana;
+    font-size: 10px;
+    background-color: green;
+    border: none;
+    color:white;
+    padding: 5px 5px ;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}

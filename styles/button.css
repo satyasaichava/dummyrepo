@@ -1,0 +1,36 @@
+.add-to-cart{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    background-color: #FFD814;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    margin: 1px 1px 10px 10px;
+    transition: background-color 3s;
+}
+.add-to-cart:hover{
+    background-color: #e0bb01;
+}
+
+.buy-now{
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-right: 55px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    background-color: #FFA41C;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    margin: 1px 1px 10px 10px;
+    transition: background-color 0.15s;
+}
+
+.buy-now:hover{
+    background-color: #eb8e03;
+}
